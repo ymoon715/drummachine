@@ -1,0 +1,42 @@
+.Pad {
+    margin: 5px;
+    width: 17.5%;
+    height: 135px;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 125px;
+}
+
+.Pad:hover {
+    background: pink;
+}
+
+@media (max-width: 1000px){
+    .Pad {
+        width: 17.5%;
+        height: 100px;
+        line-height: 100px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .Pad {
+        margin: 1px;
+        width: 18.9%;
+        height: 80px;
+        line-height: 80px;
+    }
+}
+@media (max-width: 375px) {
+    .Pad {
+        margin: 1px;
+        width: 18.9%;
+        height: 60px;
+        line-height: 60px;
+    }
+}

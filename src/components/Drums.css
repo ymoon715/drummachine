@@ -1,0 +1,16 @@
+.drums {
+    margin: 40px;
+    width: 90%;
+    height: auto;
+    background-color: #3a9285;
+    position: relative;
+    border-radius: 15px;
+    display: inline-block;
+  }
+
+  @media (max-width: 1000px) {
+    .drums {
+        margin: 20px;
+        width: 90%;
+      }
+  }
